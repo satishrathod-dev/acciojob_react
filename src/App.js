@@ -30,6 +30,13 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Showroom from "./components/Showroom";
 import Counter from "./components/Counter";
+import Hooks from "./components/Hooks";
+import Timer from "./components/Timer";
+import ApiCall from "./components/ApiCall";
+import UseMemo from "./components/UseMemo";
+import UseRef from "./components/UseRef";
+import { Axios } from "axios";
+import ReduxCounter from "./components/ReduxCounter";
 
 function App() {
   return (
@@ -38,7 +45,14 @@ function App() {
       <Content />
       <Footer />
       <Showroom /> */}
-      <Counter />
+      {/* <Counter />
+      <Hooks /> */}
+      {/* <Timer /> */}
+      {/* <ApiCall /> */}
+      {/* <UseMemo /> */}
+      {/* <UseRef /> */}
+      {/* <Axios /> */}
+      <ReduxCounter />
     </>
   );
 }
